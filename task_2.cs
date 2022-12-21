@@ -36,17 +36,22 @@ if (numberA%2==0)
 Console.WriteLine(numberA+" is an ordinary number");
 else 
 Console.WriteLine(numberA+ " is an odd number");
+
+
 //task_8 program takes a number 
 //and shows all the ordinary numbers from 1 to number
 
 Console.WriteLine("Input number");
 int numberOrd = int.Parse (Console.ReadLine()!);
 
-while(numberOrd>=1)
+while (numberOrd>=1);
 
-if (numberOrd%2==0)
-    Console.WriteLine(numberOrd);
+    if (numberOrd%2==0)
+    {
+    Console.WriteLine("numberOrd");
     numberOrd = numberOrd-2;
-    else 
-numberOrd = numberOrd-1;
-Console.WriteLine("NumberOrd");
+    }
+         else 
+         numberOrd = numberOrd-1;
+         Console.WriteLine("NumberOrd");
+
